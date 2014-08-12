@@ -7,8 +7,11 @@ This is a collection of examples showing how to create many of the common compon
 used in OS X Applications. The goal is to help people learn how to build apps
 by showing clear, atomic examples.
 
-NOTE: You will need the OS X Yosemite Developer Preview to run any of the example
-apps or edit their code.
+These aren't exhaustive examples. Most of them are as basic as possible. The idea
+isn't to show everything that can be done, it's to give a solid foundation to get you started.
+
+**NOTE: You will need the OS X Yosemite Developer Preview to run any of the example
+apps or edit the code.**
 
 ### Running
 You can run any of the example apps by double clicking them.
