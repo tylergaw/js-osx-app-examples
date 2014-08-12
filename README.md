@@ -3,6 +3,10 @@
 Starting with OS X 10.10, Yosemite you can use JavaScript to create native Cocoa
 applications.
 
+This is a collection of examples showing how to create many of the common components
+used in OS X Applications. The goal is to help people learn how to build apps
+by showing clear, atomic examples.
+
 NOTE: You will need the OS X Yosemite Developer Preview to run any of the example
 apps or edit their code.
 
