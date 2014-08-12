@@ -13,6 +13,11 @@ apps or edit their code.
 ### Running
 You can run any of the example apps by double clicking them.
 
+If you are running the app while editing from Script Editor, there are two different ways.
+Script > Run (cmd + r) is the normal run. This can be good for quick debugging, but
+the app will not act like the application and is usually not what you want. You'll
+want Script > Run Application  (cmd + opt + r).
+
 ### Editing
 To view and edit the code for each example you will need to use the Script Editor
 application. It is located in Applications > Utilities > Script Editor. From there
