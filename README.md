@@ -19,6 +19,25 @@ application. It is located in Applications > Utilities > Script Editor. From the
 you can either File > Open any of the example apps or drag the example app icon
 to the Script Editor in the dock.
 
+### How to create an app
+Since using JavaScript to create apps is new there's not much documentation. We've
+had the ability to do all of this with AppleScript for years, but I haven't had
+much luck finding thorough docs on that either.
+
+Here's a couple of gotchas that had me scratching my head for some time.
+
+To create a new application:
+- Open a new document in Script Editor cmd+n
+- Save the document cmd+s
+- When prompted with the Save dialog, name your app, set the file format to Application, and
+make sure you check the Stay open after run handler option.
+
+![](http://f.cl.ly/items/0h0R390u343T2d0q0723/newapplication.png)
+
+**NOTE**: If you do not check the Stay open... option on the save dialog there does
+not appear to be a way to update this later. (I hope I'm wrong, but haven't found a way to do it yet).
+If the option isn't checked pretty much nothing is going to work how you expect it.
+
 ### Reference
 [JavaScript for Automation Release Notes](https://developer.apple.com/library/prerelease/mac/releasenotes/interapplicationcommunication/rn-javascriptforautomation/index.html)
 
