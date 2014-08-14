@@ -46,6 +46,11 @@ make sure you check the Stay open after run handler option.
 not appear to be a way to update this later. (I hope I'm wrong, but haven't found a way to do it yet).
 If the option isn't checked pretty much nothing is going to work how you expect it.
 
+### Code Signing
+Apps created this way can be code signed. Signing your app is helpful if you are
+planning to distribute it to other people. Code Signing is a broad topic, for details
+check out [http://macosxautomation.com/mavericks/codesign/index.html](http://macosxautomation.com/mavericks/codesign/index.html)
+
 ### Reference
 [JavaScript for Automation Release Notes](https://developer.apple.com/library/prerelease/mac/releasenotes/interapplicationcommunication/rn-javascriptforautomation/index.html)
 
