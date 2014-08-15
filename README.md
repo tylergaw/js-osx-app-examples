@@ -2,9 +2,9 @@
 
 **!!!!!!**
 
-**YOSEMITE DEVELOPER PREVIEW 5 NOTE:**
+**08/14 - YOSEMITE DEVELOPER PREVIEW 5 NOTE:**
 
-Many of this demos are crashing. Any demo that has a button that you can click
+A good number of the demos are crashing. Any demo that has a button that you can click
 that does something will crash. (HandleBtnClick, NSOpenPanel, etc.)
 
 I haven't tracked down the culprit yet, but it has something to do with message
