@@ -7,8 +7,11 @@
 A good number of the demos are crashing. Any demo that has a button that you can click
 that does something will crash. (HandleBtnClick, NSOpenPanel, etc.)
 
-I haven't tracked down the culprit yet, but it has something to do with message
-passing to subclasses that you have to create. [shrug emoticon]
+I have a question up on the Apple dev forums: 
+https://devforums.apple.com/thread/240935?tstart=150
+
+I've submitted a bug to Apple, and it's copied on Radar:
+http://openradar.appspot.com/radar?id=6472227281174528
 
 **END BIG BAD NOTE**
 
