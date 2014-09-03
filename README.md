@@ -1,22 +1,24 @@
 # JavaScript OS X App Examples
 
-**!!!!!!**
+### Updates
 
-**08/14 - YOSEMITE DEVELOPER PREVIEW 5 NOTE:**
+**09/02 - YOSEMITE DEVELOPER PREVIEW 7 NOTE:**
+
+Developer preview 7 has fixed the major issues that were in dev preview 5. All of
+the demos are working again.
+
+I updated the Radar: http://openradar.appspot.com/radar?id=6472227281174528
+
+**08/14 - YOSEMITE DEVELOPER PREVIEW 5/6 NOTE:**
 
 A good number of the demos are crashing. Any demo that has a button that you can click
 that does something will crash. (HandleBtnClick, NSOpenPanel, etc.)
 
-I have a question up on the Apple dev forums: 
+I have a question up on the Apple dev forums:
 https://devforums.apple.com/thread/240935?tstart=150
 
 I've submitted a bug to Apple, and it's copied on Radar:
 http://openradar.appspot.com/radar?id=6472227281174528
-
-**END BIG BAD NOTE**
-
-**!!!!!!**
-
 
 Starting with OS X 10.10, Yosemite you can use JavaScript to create native Cocoa
 applications.
