@@ -44,9 +44,9 @@
 		<key>positionOfDivider</key>
 		<real>853</real>
 		<key>savedFrame</key>
-		<string>547 227 1270 950 0 0 1920 1177 </string>
-		<key>selectedTabView</key>
-		<string>event log</string>
+		<string>530 36 1230 1141 0 0 1920 1177 </string>
+		<key>selectedTab</key>
+		<string>log</string>
 	</dict>
 </dict>
 </plist>
