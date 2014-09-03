@@ -20,6 +20,8 @@ https://devforums.apple.com/thread/240935?tstart=150
 I've submitted a bug to Apple, and it's copied on Radar:
 http://openradar.appspot.com/radar?id=6472227281174528
 
+### What is this?
+
 Starting with OS X 10.10, Yosemite you can use JavaScript to create native Cocoa
 applications.
 
