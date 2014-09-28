@@ -23,7 +23,7 @@ http://openradar.appspot.com/radar?id=6472227281174528
 ### What is this?
 
 Starting with OS X 10.10, Yosemite you can use JavaScript to create native Cocoa
-applications.
+applications. I wrote a [big ole post](http://tylergaw.com/articles/building-osx-apps-with-js) to help get you started.
 
 This is a collection of examples showing how to create many of the common components
 used in OS X Applications. The goal is to help people learn how to build apps
