@@ -2,14 +2,18 @@
 
 ### Updates
 
-**09/02 - YOSEMITE DEVELOPER PREVIEW 7 NOTE:**
+**06/15 - OS X 10.11 Release Notes
+
+OS X 10.11 includes a number of updates to JSX https://developer.apple.com/library/prerelease/mac/releasenotes/InterapplicationCommunication/RN-JavaScriptForAutomation/Articles/OSX10-11.html#//apple_ref/doc/uid/TP40014508-CH110-SW1
+
+**09/02/14 - YOSEMITE DEVELOPER PREVIEW 7 NOTE:**
 
 Developer preview 7 has fixed the major issues that were in dev preview 5. All of
 the demos are working again.
 
 I updated the Radar: http://openradar.appspot.com/radar?id=6472227281174528
 
-**08/14 - YOSEMITE DEVELOPER PREVIEW 5/6 NOTE:**
+**08/14/14 - YOSEMITE DEVELOPER PREVIEW 5/6 NOTE:**
 
 A good number of the demos are crashing. Any demo that has a button that you can click
 that does something will crash. (HandleBtnClick, NSOpenPanel, etc.)
