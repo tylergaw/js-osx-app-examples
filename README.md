@@ -2,7 +2,7 @@
 
 ### Updates
 
-**06/15 - OS X 10.11 Release Notes
+**06/15 - OS X 10.11 Release Notes**
 
 OS X 10.11 includes a number of updates to JSX https://developer.apple.com/library/prerelease/mac/releasenotes/InterapplicationCommunication/RN-JavaScriptForAutomation/Articles/OSX10-11.html#//apple_ref/doc/uid/TP40014508-CH110-SW1
 
