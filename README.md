@@ -6,6 +6,8 @@
 
 OS X 10.11 includes a number of updates to JSX https://developer.apple.com/library/prerelease/mac/releasenotes/InterapplicationCommunication/RN-JavaScriptForAutomation/Articles/OSX10-11.html#//apple_ref/doc/uid/TP40014508-CH110-SW1
 
+Sandboxing info: https://developer.apple.com/library/prerelease/mac/qa/qa1888/_index.html#//apple_ref/doc/uid/DTS40015156
+
 **09/02/14 - YOSEMITE DEVELOPER PREVIEW 7 NOTE:**
 
 Developer preview 7 has fixed the major issues that were in dev preview 5. All of
@@ -35,9 +37,6 @@ by showing clear, atomic examples.
 
 These aren't exhaustive examples. Most of them are as basic as possible. The idea
 isn't to show everything that can be done, it's to give a solid foundation to get you started.
-
-**NOTE: You will need the OS X Yosemite Developer Preview to run any of the example
-apps or edit the code.**
 
 ### Running
 You can run any of the example apps by double clicking them.
