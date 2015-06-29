@@ -1,9 +1,9 @@
-# (NOTE: UNRESOLVED)
+# RESOLVED
 
 # JS closure causing odd behavior with JXA
 https://forums.developer.apple.com/thread/5208
 
-### Tyler Gaw - June 14, 2014 12:52 PM EST
+### Tyler Gaw - June 14, 2015 12:52 PM EST
 
 I'm using JXA to build Cocoa applications and running into a strange issue when attempting to wrap all an app's JavaScript with an immediately-invoked function expression.
 
@@ -93,4 +93,39 @@ Example:
   window.title = 'NSWindow Closure Bug?';  
   window.makeKeyAndOrderFront(window);  
 }());  
+```
+
+### [username withheld cause I'm not sure I should share it] - June 23, 2015 3:52 PM EST
+
+You must be experiencing JavaScript's garbage collection here. When the immediately invoked closure is cleaned up, the variables created inside are cleaned up as well (and your window goes away, because it has no variable referencing it anymore). To keep the window around, you will need a persistent variable in the global scope (which is why the non-closure version worked for you). You can accomplish this by either having a window variable outside of the closure that you set to an NSWindow inside the closure or declaring the window variable without the "var" keyword inside the closure (which will declare the window variable in the global scope). Here is code demonstrating these two approaches:
+
+```javascript
+var globalWindow = null;  
+  
+(function() {  
+  
+    ObjC.import('Cocoa');  
+  
+    // Helper function for window creation  
+    function windowWithTitle(title) {  
+  
+        var window = $.NSWindow.alloc.initWithContentRectStyleMaskBackingDefer(  
+            $.NSMakeRect(0, 0, 800, 400),  
+            $.NSTitledWindowMask | $.NSClosableWindowMask | $.NSResizableWindowMask | $.NSMiniaturizableWindowMask,  
+            $.NSBackingStoreBuffered,  
+            false  
+        );  
+  
+        window.center;  
+        window.title = title;  
+        window.makeKeyAndOrderFront(window);  
+  
+        return window;  
+    }  
+  
+    // Create one local window and two global windows  
+    var localWindow = windowWithTitle('I will disappear');  
+    globalWindow = windowWithTitle('I will stick around');  
+    anotherGlobalWindow = windowWithTitle('I will also stick around');  
+}()); 
 ```
